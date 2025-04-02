@@ -12,7 +12,7 @@ body {
     align-items: center;
     padding: 20px;
     width: 100%;
-    background-image: url("About Me.png");
+    background-color: rgb(247, 199, 247);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -5,7 +5,7 @@
     justify-content: center; 
     text-align: center; 
     padding: 20px;
-    background-image: url("Landing.png");
+    background-color: rgb(247, 199, 247);
     background-size: cover;
     background-position: center; 
     background-attachment: fixed; 
