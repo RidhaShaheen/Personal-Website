@@ -34,7 +34,7 @@ const Experience = () => {
         </div>
         <img
           className={styles.image}
-          src="src/assets/Screenshot 2025-03-31 192011.png"
+          src="Screenshot 2025-03-31 192011.png"
           alt="About Me"
         />
       </div>
@@ -71,7 +71,7 @@ const Experience = () => {
         </div>
         <img
           className={styles.image}
-          src="src/assets/YTLwin.png"
+          src="YTLwin.png"
           alt="About Me"
         />
       </div>
@@ -102,7 +102,7 @@ const Experience = () => {
         </div>
         <img
           className={styles.image}
-          src="src/assets/Screenshot 2025-03-31 193111.png"
+          src="Screenshot 2025-03-31 193111.png"
           alt="About Me"
         />
       </div>

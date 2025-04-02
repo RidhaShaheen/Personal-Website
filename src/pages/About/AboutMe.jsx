@@ -26,17 +26,17 @@ const AboutMe = () => {
             <div className={styles.imgc}>
                 <img
                     className={styles.image2}
-                    src="src/assets/Screenshot 2025-04-01 134149.png"
+                    src="Screenshot 2025-04-01 134149.png"
                     alt="About Me"
                 />
                 <img
                     className={styles.image2}
-                    src="src/assets/d766c6c5-7508-49fe-929d-65fae169c705.jpg"
+                    src="d766c6c5-7508-49fe-929d-65fae169c705.jpg"
                     alt="About Me"
                 />
                 <img
                     className={styles.image2}
-                    src="src/assets/IMG_20240626_132712425_HDR.jpg"
+                    src="IMG_20240626_132712425_HDR.jpg"
                     alt="About Me"
                 />
             </div>
@@ -44,12 +44,12 @@ const AboutMe = () => {
             <div className={styles.imgd}>
                 <img
                     className={styles.image3}
-                    src="src/assets/PI_2023.06.20_best-worst-digital-2035_featured.png"
+                    src="PI_2023.06.20_best-worst-digital-2035_featured.png"
                     alt="About Me"
                 />
                 <img
                     className={styles.image3}
-                    src="src/assets/download.png"
+                    src="download.png"
                     alt="About Me"
                 />
             </div>

@@ -9,7 +9,7 @@
               
       <img
           className={styles.image}
-          src="src/assets/school.png"
+          src="school.png"
           alt="About Me"
         />
         <h2 className={styles.header2}>Currently a high school student at Kitchener Collegiate Institute (KCI)</h2>
@@ -17,7 +17,7 @@
               <div className={styles.content}>
                 <img
                   className={styles.image}
-                  src="src/assets/IMG_1922 1.png"
+                  src="IMG_1922 1.png"
                   alt="About Me"
                 />
                 <div>
@@ -57,7 +57,7 @@
               <div className={styles.content}>
                 <img
                   className={styles.image}
-                  src="src/assets/IMG_0487 2.png"
+                  src="IMG_0487 2.png"
                   alt="About Me"
                 />
                 <div>
