@@ -1,0 +1,132 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-image: url("src/assets/About Me.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    /* Combined animations: fadeIn and slideIn */
+    animation: fadeIn 1.5s ease-in-out, slideIn 1s ease-in-out;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #222;
+    margin: 20px 0 30px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .title:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(132, 9, 77, 0.8);
+  }
+  
+  .header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #222;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .header:hover {
+    color: #590e63;
+    transform: scale(1.1);
+  }
+  
+  .content,
+  .content2,
+  .content3 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .list {
+    margin-top: 20px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+    padding-right: 50px;
+    clip-path: inset(0); /* Adjust as needed for your layout */
+  }
+  
+  .image:hover {
+    transform: scale(1.02); /* Reduce the scaling effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Keep the hover shadow effect */
+  }
+  
+  
+  /* Keyframes for animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

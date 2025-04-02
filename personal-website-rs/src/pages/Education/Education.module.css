@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-image: url("src/assets/About Me.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  animation: fadeIn 1.5s ease-in-out, slideIn 1s ease-in-out;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #222;
+  margin: 20px 0 30px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  animation: slideIn 1s ease-in-out;
+}
+
+.title:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 10px rgba(132, 9, 77, 0.8);
+}
+
+.image {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  margin: 0 20px;
+  padding-right: 30px;
+  padding-top: 50px;
+  clip-path: inset(0); /* Adjust as needed for your layout */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.02); /* Reduce the scaling effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Keep the hover shadow effect */
+}
+
+
+.header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.header2{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.list {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 90px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
