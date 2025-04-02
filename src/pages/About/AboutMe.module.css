@@ -1,0 +1,212 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    background-image: url("src/assets/About Me.png");
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    animation: fadeIn 1.5s ease-in-out; 
+    animation: slideIn 1s ease-in-out; 
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.header {
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+
+.header2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 27px;
+    color: #333;
+    text-align: center;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    
+}
+
+.header3{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left: 100px; 
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.header:hover, .header2:hover, .header3:hover {
+    color: #590e63; 
+    transform: scale(1.1); 
+}
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 20px;
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 20px;transition: transform 0.3s ease, color 0.3s ease; 
+    animation: slideIn 1s ease-in-out; 
+
+}
+
+.title:hover {
+    transform: scale(1.1); 
+    text-shadow: 0 0 10px #84094d; 
+}
+.content {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 70%; 
+    margin-left: 100px; 
+    animation: slideIn 1s ease-in-out; 
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #555; 
+    line-height: 1.5; 
+    max-width: 95%;
+    text-align: left; 
+    margin-top: 10px; 
+    transition: transform 0.3s ease-in-out; 
+    animation: slideIn 1s ease-in-out; 
+
+}
+
+.description:hover {
+    transform: scale(1.05); 
+}
+
+.image {
+    max-width: 30%; 
+    height: 300px;
+    object-fit: cover; 
+    margin-right: 100px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    animation: slideIn 1s ease-in-out; 
+
+
+}
+
+ .imgc {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    width: 100%; 
+    margin-top: 40px;
+    animation: fadeIn 1.5s ease-in-out;
+    animation: slideIn 1s ease-in-out; 
+
+}
+
+.imgd {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20px; 
+    width: 100%; 
+    margin-top: 0px; 
+    margin-bottom: 30px;
+    animation: fadeIn 1.5s ease-in-out; 
+    animation: slideIn 1s ease-in-out; 
+
+}
+
+
+.image2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    flex-direction: row; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    animation: slideIn 1s ease-in-out; 
+
+   
+}
+
+.image3{
+    margin-top: 40px;
+    width:300px; 
+    height: 235px;
+    object-fit: cover;
+    flex-direction: row;   
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    animation: slideIn 1s ease-in-out; 
+
+    
+}
+
+.image:hover, .image2:hover, .image3:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.desp {
+    font-size: 20px; 
+    color: #555;
+    text-align: center;
+    width: 100%; 
+    margin-top: 5px; 
+    margin-bottom: 50px ;
+}
+
+.imgc > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px; 
+}
+
+
+.button {
+    color: #fff;
+    background-color: #292828;
+    width: 30%;
+    height: 35px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    margin-right: 10px; 
+    align-items: center;
+    margin-top: 30px; transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.button:hover {
+    background-color: #555;
+    transform: scale(1.1); 
+}
+
+.button:last-child {
+    margin-right: 0; 
+}
+
